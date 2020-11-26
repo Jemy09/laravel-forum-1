@@ -1,7 +1,7 @@
-<?php namespace Riari\Forum\Models\Observers;
+<?php namespace Jemy09\Forum\Models\Observers;
 
 use Carbon\Carbon;
-use Riari\Forum\Support\Stats;
+use Jemy09\Forum\Support\Stats;
 
 class PostObserver
 {

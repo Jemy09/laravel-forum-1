@@ -1,4 +1,4 @@
-<?php namespace Riari\Forum\Contracts\API;
+<?php namespace Jemy09\Forum\Contracts\API;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

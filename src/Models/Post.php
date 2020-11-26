@@ -1,8 +1,8 @@
-<?php namespace Riari\Forum\Models;
+<?php namespace Jemy09\Forum\Models;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Riari\Forum\Models\Traits\HasAuthor;
-use Riari\Forum\Support\Traits\CachesData;
+use Jemy09\Forum\Models\Traits\HasAuthor;
+use Jemy09\Forum\Support\Traits\CachesData;
 
 class Post extends BaseModel
 {

@@ -13,11 +13,11 @@ return [
     */
 
     'policies' => [
-        'forum' => Riari\Forum\Policies\ForumPolicy::class,
+        'forum' => Jemy09\Forum\Policies\ForumPolicy::class,
         'model' => [
-            Riari\Forum\Models\Category::class  => Riari\Forum\Policies\CategoryPolicy::class,
-            Riari\Forum\Models\Thread::class    => Riari\Forum\Policies\ThreadPolicy::class,
-            Riari\Forum\Models\Post::class      => Riari\Forum\Policies\PostPolicy::class
+            Jemy09\Forum\Models\Category::class  => Jemy09\Forum\Policies\CategoryPolicy::class,
+            Jemy09\Forum\Models\Thread::class    => Jemy09\Forum\Policies\ThreadPolicy::class,
+            Jemy09\Forum\Models\Post::class      => Jemy09\Forum\Policies\PostPolicy::class
         ]
     ],
 

@@ -1,7 +1,7 @@
-<?php namespace Riari\Forum\Models;
+<?php namespace Jemy09\Forum\Models;
 
 use Illuminate\Support\Facades\Gate;
-use Riari\Forum\Support\Traits\CachesData;
+use Jemy09\Forum\Support\Traits\CachesData;
 
 class Category extends BaseModel
 {

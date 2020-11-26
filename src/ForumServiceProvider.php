@@ -1,4 +1,4 @@
-<?php namespace Riari\Forum;
+<?php namespace Jemy09\Forum;
 
 use Carbon\Carbon;
 use Illuminate\Auth\Access\Gate;
@@ -6,12 +6,12 @@ use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use Riari\Forum\Console\Commands\RefreshStats;
-use Riari\Forum\Http\Middleware\APIAuth;
-use Riari\Forum\Models\Post;
-use Riari\Forum\Models\Thread;
-use Riari\Forum\Models\Observers\PostObserver;
-use Riari\Forum\Models\Observers\ThreadObserver;
+use Jemy09\Forum\Console\Commands\RefreshStats;
+use Jemy09\Forum\Http\Middleware\APIAuth;
+use Jemy09\Forum\Models\Post;
+use Jemy09\Forum\Models\Thread;
+use Jemy09\Forum\Models\Observers\PostObserver;
+use Jemy09\Forum\Models\Observers\ThreadObserver;
 
 class ForumServiceProvider extends ServiceProvider
 {
@@ -139,7 +139,7 @@ class ForumServiceProvider extends ServiceProvider
     {
         $dir = $this->baseDir();
         $router->group([
-            'namespace' => 'Riari\Forum\Http\Controllers',
+            'namespace' => 'Jemy09\Forum\Http\Controllers',
             'as' => config('forum.routing.as'),
             'prefix' => config('forum.routing.root')
         ], function ($r) use ($dir) {

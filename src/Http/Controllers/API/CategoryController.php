@@ -1,9 +1,9 @@
-<?php namespace Riari\Forum\Http\Controllers\API;
+<?php namespace Jemy09\Forum\Http\Controllers\API;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
-use Riari\Forum\Models\Category;
+use Jemy09\Forum\Models\Category;
 
 class CategoryController extends BaseController
 {

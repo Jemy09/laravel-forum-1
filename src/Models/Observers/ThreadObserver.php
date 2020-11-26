@@ -1,9 +1,9 @@
-<?php namespace Riari\Forum\Models\Observers;
+<?php namespace Jemy09\Forum\Models\Observers;
 
 use Carbon\Carbon;
-use Riari\Forum\Models\Category;
-use Riari\Forum\Models\Thread;
-use Riari\Forum\Support\Stats;
+use Jemy09\Forum\Models\Category;
+use Jemy09\Forum\Models\Thread;
+use Jemy09\Forum\Support\Stats;
 
 class ThreadObserver
 {

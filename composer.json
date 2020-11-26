@@ -1,22 +1,22 @@
 {
-    "name": "riari/laravel-forum",
+    "name": "jemy09/laravel-forum",
     "description": "A Laravel 5 package providing a solid foundation for building discussion forums",
     "keywords": ["laravel", "laravel-5", "forum", "discuss"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Riari",
-            "email": "riari@teamteatime.net"
+            "name": "Jemy09",
+            "email": "admin@jemarea.com"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "laravel/framework": "~5.4",
+        "php": ">=7.1.0",
+        "laravel/framework": "~5.0|^6.0|^7.0|^8.0",
         "doctrine/dbal": "^2.5"
     },
     "autoload": {
         "psr-4": {
-            "Riari\\Forum\\": "src"
+            "Jemy09\\Forum\\": "src"
         }
     },
     "suggest": {

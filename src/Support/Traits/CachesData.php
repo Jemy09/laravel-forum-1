@@ -1,4 +1,4 @@
-<?php namespace Riari\Forum\Support\Traits;
+<?php namespace Jemy09\Forum\Support\Traits;
 
 use Cache;
 use ReflectionClass;

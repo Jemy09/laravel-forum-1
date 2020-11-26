@@ -1,6 +1,6 @@
-<?php namespace Riari\Forum\Policies;
+<?php namespace Jemy09\Forum\Policies;
 
-use Riari\Forum\Models\Category;
+use Jemy09\Forum\Models\Category;
 
 class CategoryPolicy
 {

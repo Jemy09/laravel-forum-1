@@ -1,4 +1,4 @@
-<?php namespace Riari\Forum\Policies;
+<?php namespace Jemy09\Forum\Policies;
 
 class ForumPolicy
 {

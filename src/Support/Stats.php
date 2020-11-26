@@ -1,4 +1,4 @@
-<?php namespace Riari\Forum\Support;
+<?php namespace Jemy09\Forum\Support;
 
 class Stats
 {

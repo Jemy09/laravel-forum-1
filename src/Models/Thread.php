@@ -1,11 +1,11 @@
-<?php namespace Riari\Forum\Models;
+<?php namespace Jemy09\Forum\Models;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Facades\Gate;
-use Riari\Forum\Models\Category;
-use Riari\Forum\Models\Post;
-use Riari\Forum\Models\Traits\HasAuthor;
-use Riari\Forum\Support\Traits\CachesData;
+use Jemy09\Forum\Models\Category;
+use Jemy09\Forum\Models\Post;
+use Jemy09\Forum\Models\Traits\HasAuthor;
+use Jemy09\Forum\Support\Traits\CachesData;
 
 class Thread extends BaseModel
 {

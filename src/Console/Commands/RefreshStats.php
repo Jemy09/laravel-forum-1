@@ -1,10 +1,10 @@
-<?php namespace Riari\Forum\Console\Commands;
+<?php namespace Jemy09\Forum\Console\Commands;
 
 use Illuminate\Console\Command;
-use Riari\Forum\Models\Category;
-use Riari\Forum\Models\Post;
-use Riari\Forum\Models\Thread;
-use Riari\Forum\Support\Stats;
+use Jemy09\Forum\Models\Category;
+use Jemy09\Forum\Models\Post;
+use Jemy09\Forum\Models\Thread;
+use Jemy09\Forum\Support\Stats;
 
 class RefreshStats extends Command
 {

@@ -1,9 +1,9 @@
-<?php namespace Riari\Forum\Http\Controllers\API;
+<?php namespace Jemy09\Forum\Http\Controllers\API;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Riari\Forum\Models\Post;
-use Riari\Forum\Models\Thread;
+use Jemy09\Forum\Models\Post;
+use Jemy09\Forum\Models\Thread;
 
 class PostController extends BaseController
 {

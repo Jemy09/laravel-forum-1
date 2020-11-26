@@ -1,7 +1,7 @@
-<?php namespace Riari\Forum\Policies;
+<?php namespace Jemy09\Forum\Policies;
 
 use Illuminate\Support\Facades\Gate;
-use Riari\Forum\Models\Post;
+use Jemy09\Forum\Models\Post;
 
 class PostPolicy
 {
